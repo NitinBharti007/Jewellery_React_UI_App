@@ -4,7 +4,7 @@ import {
   FaTwitter,
   FaPinterest,
 } from "react-icons/fa";
-import logo2 from "../assets/logo3.jpeg";
+import logo2 from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {

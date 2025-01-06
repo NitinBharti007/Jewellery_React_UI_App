@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +12,12 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50 w-full">
-      <div className="container mx-auto flex justify-between items-center px-5 p-2">
+      <div className="container mx-auto flex justify-between items-center px-8 p-2">
         {/* Logo */}
         <div className="flex items-center space-x-3">
           <Link to={"/"}>
           <img
-            className="w-32 h-auto object-contain"
+            className="w-20 h-auto object-contain"
             src={logo}
             alt="Pahadisunar Logo"
           />
