@@ -16,9 +16,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Contact Form Section */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold text-primary mb-6">
-            Get in Touch
-          </h2>
+          <h2 className="text-2xl font-bold text-primary mb-6">Get in Touch</h2>
           <form action="#" method="POST">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="form-group">
@@ -81,14 +79,12 @@ const Contact = () => {
 
         {/* Company Information Section */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold text-primary mb-6">
-            Our Location
-          </h2>
+          <h2 className="text-2xl font-bold text-primary mb-6">Our Location</h2>
           <p className="text-lg text-gray-600 mb-4">
             If you'd like to visit us, here’s our address:
           </p>
           <p className="text-lg text-gray-800 font-semibold mb-4">
-            Pahadi Sunar Jewelry, Main Street, Hilltop, Uttarakhand, India
+            1A, Shop, 31, Block X, Sector 12, Noida, Uttar Pradesh 201301
           </p>
 
           <div className="text-lg text-gray-600 mb-4">
@@ -96,7 +92,7 @@ const Contact = () => {
               <strong>Email:</strong> contact@pahadisunar.com
             </p>
             <p>
-              <strong>Phone:</strong> +91 123 456 7890
+              <strong>Phone:</strong> +91 8865099999
             </p>
           </div>
 
